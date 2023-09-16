@@ -42,6 +42,11 @@ nav{
             font-family: 'Karla', sans-serif;
             font-weight: 400;
             margin-top: 7px;
+            cursor: pointer;
+
+            &:hover{
+                color: black;
+            }
         }
 
         button{
@@ -50,6 +55,12 @@ nav{
             padding-right: 15px;
             background: none;
             border: 1px solid black;
+            cursor: pointer;
+
+            &:hover{
+                background-color: black;
+                color: white;
+            }
         }
     }
 }
@@ -63,6 +74,22 @@ nav{
 .main-container{
     height: 675px;
     background-color: rgb(45, 36, 70);
+
+    #bg-left-desktop{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        position: absolute;
+        top: 630px;
+    }
+
+    #bg-right-desktop{
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 100px;
+        right: 0;
+    }
     
     .content{
         display: flex;
@@ -110,6 +137,12 @@ nav{
                 margin-top: 30px;
                 font-family: 'Karla', sans-serif;
                 font-weight: 700;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
             }
         }
     
@@ -187,6 +220,13 @@ nav{
             background-color: rgb(45, 36, 70);
             height: 300px;
 
+            #bg-middle-desktop{
+                position: absolute;
+                height: 300px;
+                margin-left: 600px;
+                background-position: right;
+            }
+
             .content-find-more{
                 justify-content: space-around;
                 align-items: center;
@@ -211,6 +251,107 @@ nav{
                     padding-right: 30px;
                     font-family: 'Karla', sans-serif;
                     font-weight: 700;
+                    z-index: 1;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// =================
+//
+// FOOTER
+//
+// =================
+
+footer{
+    background-color: rgba(226, 226, 226, 0.26);
+    margin-top: 170px;
+    height: 400px;
+
+    #bg-footer-desktop{
+        position: absolute;
+        background-position: top;
+        z-index: -1;
+    }
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        max-width: 1120px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgb(211, 211, 211);
+
+        .social-media{
+            img{
+                margin-right: 20px;
+                cursor: pointer;
+
+                &:nth-child(4){
+                    margin-right: 0px;
+                }
+
+                &:hover{
+                    filter: brightness(0%);
+                }
+            }
+        }
+    }
+
+    .bottom{
+        display: grid;
+        max-width: 1120px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: auto;
+        padding-top: 30px;
+        font-family: 'Karla', sans-serif;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+
+        .bt{
+            color: black;
+
+            p{
+                margin-bottom: 15px;
+                cursor: pointer;
+
+                &:nth-child(1){
+                    color: rgb(92, 92, 92);
+                    margin-bottom: 30px;
+                }
+
+                &:nth-child(2){
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                }
+
+                &:nth-child(3){
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                }
+
+                &:nth-child(4){
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                }
+
+                &:nth-child(5){
+                    &:hover{
+                        text-decoration:underline;
+                    }
                 }
             }
         }

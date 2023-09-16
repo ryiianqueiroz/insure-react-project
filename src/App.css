@@ -32,6 +32,10 @@ nav .p-nav h3 {
   font-family: "Karla", sans-serif;
   font-weight: 400;
   margin-top: 7px;
+  cursor: pointer;
+}
+nav .p-nav h3:hover {
+  color: black;
 }
 nav .p-nav button {
   padding: 10px;
@@ -39,11 +43,30 @@ nav .p-nav button {
   padding-right: 15px;
   background: none;
   border: 1px solid black;
+  cursor: pointer;
+}
+nav .p-nav button:hover {
+  background-color: black;
+  color: white;
 }
 
 .main-container {
   height: 675px;
   background-color: #2d2446;
+}
+.main-container #bg-left-desktop {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  position: absolute;
+  top: 630px;
+}
+.main-container #bg-right-desktop {
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 100px;
+  right: 0;
 }
 .main-container .content {
   display: flex;
@@ -88,6 +111,11 @@ nav .p-nav button {
   margin-top: 30px;
   font-family: "Karla", sans-serif;
   font-weight: 700;
+  cursor: pointer;
+}
+.main-container .content .main-text button:hover {
+  background-color: white;
+  color: black;
 }
 .main-container .content .main-image {
   width: 50%;
@@ -146,6 +174,12 @@ nav .p-nav button {
   background-color: #2d2446;
   height: 300px;
 }
+.container-middle .content .find-more #bg-middle-desktop {
+  position: absolute;
+  height: 300px;
+  margin-left: 600px;
+  background-position: right;
+}
 .container-middle .content .find-more .content-find-more {
   justify-content: space-around;
   align-items: center;
@@ -169,6 +203,77 @@ nav .p-nav button {
   padding-right: 30px;
   font-family: "Karla", sans-serif;
   font-weight: 700;
+  z-index: 1;
+  cursor: pointer;
+}
+.container-middle .content .find-more .content-find-more button:hover {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: rgba(226, 226, 226, 0.26);
+  margin-top: 170px;
+  height: 400px;
+}
+footer #bg-footer-desktop {
+  position: absolute;
+  background-position: top;
+  z-index: -1;
+}
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 1120px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+footer .top .social-media img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+footer .top .social-media img:nth-child(4) {
+  margin-right: 0px;
+}
+footer .top .social-media img:hover {
+  filter: brightness(0%);
+}
+footer .bottom {
+  display: grid;
+  max-width: 1120px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  padding-top: 30px;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+footer .bottom .bt {
+  color: black;
+}
+footer .bottom .bt p {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+footer .bottom .bt p:nth-child(1) {
+  color: #5c5c5c;
+  margin-bottom: 30px;
+}
+footer .bottom .bt p:nth-child(2):hover {
+  text-decoration: underline;
+}
+footer .bottom .bt p:nth-child(3):hover {
+  text-decoration: underline;
+}
+footer .bottom .bt p:nth-child(4):hover {
+  text-decoration: underline;
+}
+footer .bottom .bt p:nth-child(5):hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.scss.map */

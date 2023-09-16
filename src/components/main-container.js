@@ -1,4 +1,6 @@
 import ImageIntroDesktop from '../images/image-intro-desktop.jpg'
+import BgLeftDesktop from '../images/bg-pattern-intro-left-desktop.svg'
+import BgRightDesktop from '../images/bg-pattern-intro-right-desktop.svg'
 
 function MainContainer() {
     return (
@@ -16,7 +18,10 @@ function MainContainer() {
                 <div className="main-image">
                     <img src={ImageIntroDesktop} alt="#"></img>
                 </div>
-            </div> 
+            </div>
+
+            <img src={BgLeftDesktop} alt="#" id='bg-left-desktop'/>
+            <img src={BgRightDesktop} alt='#' id='bg-right-desktop'/> 
         </section>
     )
 }
