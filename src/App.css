@@ -12,11 +12,9 @@
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin: auto;
-  max-width: 1120px;
-  height: 100px;
+  height: 80px;
 }
 nav img {
   width: 110px;
@@ -51,28 +49,29 @@ nav .p-nav button:hover {
 }
 
 .main-container {
-  height: 675px;
+  height: 700px;
   background-color: #2d2446;
+  z-index: 1;
 }
 .main-container #bg-left-desktop {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
   position: absolute;
-  top: 630px;
+  top: 600px;
 }
 .main-container #bg-right-desktop {
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  top: 100px;
+  top: 80px;
   right: 0;
 }
 .main-container .content {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1120px;
+  max-width: 1000px;
   margin: auto;
 }
 .main-container .content .main-text {
@@ -82,19 +81,19 @@ nav .p-nav button:hover {
   width: 200px;
   height: 2px;
   background-color: white;
-  margin-top: -100px;
+  margin-top: -30px;
   position: absolute;
 }
 .main-container .content .main-text h1 {
-  margin-top: -30px;
+  margin-top: 40px;
   color: white;
-  font-size: 75px;
+  font-size: 68px;
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   line-height: 80px;
 }
 .main-container .content .main-text p {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   margin-top: 40px;
   line-height: 30px;
@@ -119,10 +118,11 @@ nav .p-nav button:hover {
 }
 .main-container .content .main-image {
   width: 50%;
+  margin-left: 0px;
 }
 .main-container .content .main-image img {
   width: 100%;
-  height: 100%;
+  height: 105%;
   margin-top: 120px;
 }
 
@@ -133,7 +133,7 @@ nav .p-nav button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1120px;
+  max-width: 1000px;
   margin: auto;
 }
 .container-middle .content .border-middle {
@@ -168,7 +168,7 @@ nav .p-nav button:hover {
   font-family: "Karla", sans-serif;
   font-weight: 400;
   line-height: 25px;
-  width: 90%;
+  width: 95%;
 }
 .container-middle .content .find-more {
   background-color: #2d2446;
@@ -177,14 +177,14 @@ nav .p-nav button:hover {
 .container-middle .content .find-more #bg-middle-desktop {
   position: absolute;
   height: 300px;
-  margin-left: 600px;
+  margin-left: 480px;
   background-position: right;
 }
 .container-middle .content .find-more .content-find-more {
   justify-content: space-around;
   align-items: center;
   display: flex;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .container-middle .content .find-more .content-find-more h1 {
   font-size: 60px;
@@ -226,7 +226,7 @@ footer .top {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  max-width: 1120px;
+  max-width: 1000px;
   padding-top: 50px;
   padding-bottom: 30px;
   border-bottom: 1px solid lightgray;
@@ -243,7 +243,7 @@ footer .top .social-media img:hover {
 }
 footer .bottom {
   display: grid;
-  max-width: 1120px;
+  max-width: 1000px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: auto;
   padding-top: 30px;
@@ -276,6 +276,178 @@ footer .bottom .bt p:nth-child(5):hover {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 1024px) {
+  .main-container {
+    height: 644px;
+  }
+  .main-container #bg-left-desktop {
+    top: 550px;
+    height: 20%;
+  }
+  .main-container #bg-right-desktop {
+    top: 80px;
+    width: 40%;
+  }
+  .main-container .content {
+    max-width: 750px;
+  }
+  .main-container .content .main-text .border {
+    width: 150px;
+    height: 2px;
+    background-color: white;
+    margin-top: 80px;
+    position: absolute;
+  }
+  .main-container .content .main-text h1 {
+    margin-top: 150px;
+    color: white;
+    font-size: 50px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    line-height: 55px;
+  }
+  .main-container .content .main-text p {
+    font-size: 13px;
+    color: white;
+    margin-top: 40px;
+    line-height: 25px;
+    width: 97%;
+  }
+  .main-container .content .main-text button {
+    color: white;
+    background: none;
+    border: 1px solid white;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .main-container .content .main-image {
+    width: 410px;
+    height: 550px;
+    margin-left: 0px;
+  }
+  .main-container .content .main-image img {
+    width: 100%;
+    height: 100%;
+    margin-top: 120px;
+  }
+
+  .container-middle {
+    margin-top: 250px;
+  }
+  .container-middle .content {
+    max-width: 750px;
+  }
+  .container-middle .content .border-middle {
+    width: 200px;
+    height: 2px;
+    background-color: gray;
+    margin-top: -1000px;
+    position: absolute;
+  }
+  .container-middle .content .h1-different {
+    font-size: 70px;
+    margin-top: 0px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+  }
+  .container-middle .content .card-middle {
+    margin-top: 70px;
+    margin-bottom: 150px;
+  }
+  .container-middle .content .card-middle .card img {
+    margin-bottom: 30px;
+  }
+  .container-middle .content .card-middle .card h4 {
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+  .container-middle .content .card-middle .card p {
+    font-size: 15px;
+    color: gray;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    width: 95%;
+  }
+  .container-middle .content .find-more {
+    height: 250px;
+  }
+  .container-middle .content .find-more #bg-middle-desktop {
+    position: absolute;
+    height: 250px;
+    width: 380px;
+    margin-left: 370px;
+    background-position: right;
+  }
+  .container-middle .content .find-more .content-find-more {
+    margin-top: 70px;
+  }
+  .container-middle .content .find-more .content-find-more h1 {
+    font-size: 43px;
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    width: 58%;
+    line-height: 50px;
+  }
+
+  footer {
+    margin-top: 150px;
+  }
+  footer #bg-footer-desktop {
+    position: absolute;
+    background-position: top;
+    z-index: -1;
+  }
+  footer .top {
+    max-width: 750px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  footer .top .social-media img {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  footer .top .social-media img:nth-child(4) {
+    margin-right: 0px;
+  }
+  footer .top .social-media img:hover {
+    filter: brightness(0%);
+  }
+  footer .bottom {
+    max-width: 750px;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  footer .bottom .bt {
+    color: black;
+  }
+  footer .bottom .bt p {
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  footer .bottom .bt p:nth-child(1) {
+    color: #5c5c5c;
+    margin-bottom: 30px;
+  }
+  footer .bottom .bt p:nth-child(2):hover {
+    text-decoration: underline;
+  }
+  footer .bottom .bt p:nth-child(3):hover {
+    text-decoration: underline;
+  }
+  footer .bottom .bt p:nth-child(4):hover {
+    text-decoration: underline;
+  }
+  footer .bottom .bt p:nth-child(5):hover {
+    text-decoration: underline;
+  }
+}
 /*# sourceMappingURL=style.scss.map */
 
 /*# sourceMappingURL=App.css.map */
