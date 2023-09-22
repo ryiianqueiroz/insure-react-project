@@ -2,6 +2,7 @@ import IconAffordable from '../images/icon-affordable-prices.svg'
 import IconPeople from '../images/icon-people-first.svg'
 import IconSnappy from '../images/icon-snappy-process.svg'
 import BgMiddleDestkop from '../images/bg-pattern-how-we-work-desktop.svg'
+import BgMiddleMobile from '../images/bg-pattern-how-we-work-mobile.svg'
 
 function Middle() {
     return(
@@ -33,6 +34,7 @@ function Middle() {
                 
                 <div className="find-more">
                     <img src={BgMiddleDestkop} alt="#" id="bg-middle-desktop"/>
+                    <img src={BgMiddleMobile} alt="#" id='bg-middle-mobile'/>
 
                     <div className="content-find-more">
                         <h1>Find out more about how we work</h1>

@@ -1,4 +1,5 @@
 import ImageIntroDesktop from '../images/image-intro-desktop.jpg'
+import ImageIntroMobile from '../images/image-intro-mobile.jpg'
 import BgLeftDesktop from '../images/bg-pattern-intro-left-desktop.svg'
 import BgRightDesktop from '../images/bg-pattern-intro-right-desktop.svg'
 
@@ -16,7 +17,8 @@ function MainContainer() {
                 </div>
                 
                 <div className="main-image">
-                    <img src={ImageIntroDesktop} alt="#"></img>
+                    <img src={ImageIntroDesktop} alt="#" className='intro-desktop'></img>
+                    <img src={ImageIntroMobile} alt="#" className='intro-mobile'/>
                 </div>
             </div>
 
