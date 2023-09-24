@@ -2,6 +2,8 @@ import ImageIntroDesktop from '../images/image-intro-desktop.jpg'
 import ImageIntroMobile from '../images/image-intro-mobile.jpg'
 import BgLeftDesktop from '../images/bg-pattern-intro-left-desktop.svg'
 import BgRightDesktop from '../images/bg-pattern-intro-right-desktop.svg'
+import BgLeftMobile from '../images/bg-pattern-intro-left-mobile.svg'
+import BgRightMobile from '../images/bg-pattern-intro-right-mobile.svg'
 
 function MainContainer() {
     return (
@@ -14,6 +16,8 @@ function MainContainer() {
                     and technology to help you find the plan that’s right for you. Ensure you 
                     and your loved ones are protected.</p>
                     <button>VIEW PLANS</button>
+                    <img src={BgLeftMobile} alt="#" className='bg-mobile-left'/>
+                    <img src={BgRightMobile} alt="#" className='bg-mobile-right'/>
                 </div>
                 
                 <div className="main-image">

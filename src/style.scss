@@ -101,6 +101,10 @@ nav{
         top: 80px;
         right: 0;
     }
+
+    .bg-mobile-left, .bg-mobile-right{
+        display: none;
+    }
     
     .content{
         display: flex;
@@ -750,6 +754,20 @@ footer{
                     max-width: 300px;
                     margin: auto;
                 }
+
+                .bg-mobile-left, .bg-mobile-right{
+                    display: flex;
+                    position: absolute;
+                }
+
+                .bg-mobile-left{
+                    margin-top: -381px;
+                }
+
+                .bg-mobile-right{
+                    margin-top: -280px;
+                    right: 0;
+                }
             }
         
             .main-image{
@@ -978,8 +996,8 @@ footer{
 
             h3{
                 color: white;
-                margin: 30px;
-                font-size: 30px;
+                margin: 25px;
+                font-size: 25px;
 
                 &:nth-child(1){
                     margin-top: 60px;
@@ -988,8 +1006,8 @@ footer{
 
             button{
                 width: 90%;
-                font-size: 25px;
-                height: 80px;
+                font-size: 21px;
+                height: 70px;
                 padding: 0;
                 margin: auto;
                 margin-top: 10px;
@@ -1063,6 +1081,10 @@ footer{
                     font-family: 'Karla', sans-serif;
                     max-width: 250px;
                     margin: auto;
+                }
+
+                .bg-mobile-left{
+                    margin-top: -300px;
                 }
             }
         
@@ -1273,6 +1295,27 @@ footer{
                             text-decoration:underline;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+     // =================
+    //
+    //   MAIN
+    //
+    // =================
+
+    .main-container{
+        
+        .content{
+
+            .main-text{
+
+                .bg-mobile-left{
+                    margin-top: -341px;
                 }
             }
         }

@@ -77,6 +77,9 @@ nav .ham {
   top: 80px;
   right: 0;
 }
+.main-container .bg-mobile-left, .main-container .bg-mobile-right {
+  display: none;
+}
 .main-container .content {
   display: flex;
   align-items: center;
@@ -568,6 +571,17 @@ footer .bottom .bt p:nth-child(5):hover {
     max-width: 300px;
     margin: auto;
   }
+  .main-container .content .main-text .bg-mobile-left, .main-container .content .main-text .bg-mobile-right {
+    display: flex;
+    position: absolute;
+  }
+  .main-container .content .main-text .bg-mobile-left {
+    margin-top: -381px;
+  }
+  .main-container .content .main-text .bg-mobile-right {
+    margin-top: -280px;
+    right: 0;
+  }
   .main-container .content .main-image {
     width: 100%;
     height: 50%;
@@ -735,16 +749,16 @@ footer .bottom .bt p:nth-child(5):hover {
   }
   nav .p-nav h3 {
     color: white;
-    margin: 30px;
-    font-size: 30px;
+    margin: 25px;
+    font-size: 25px;
   }
   nav .p-nav h3:nth-child(1) {
     margin-top: 60px;
   }
   nav .p-nav button {
     width: 90%;
-    font-size: 25px;
-    height: 80px;
+    font-size: 21px;
+    height: 70px;
     padding: 0;
     margin: auto;
     margin-top: 10px;
@@ -802,6 +816,9 @@ footer .bottom .bt p:nth-child(5):hover {
     font-family: "Karla", sans-serif;
     max-width: 250px;
     margin: auto;
+  }
+  .main-container .content .main-text .bg-mobile-left {
+    margin-top: -300px;
   }
   .main-container .content .main-image {
     width: 100%;
@@ -960,6 +977,11 @@ footer .bottom .bt p:nth-child(5):hover {
   }
   footer .bottom .bt p:nth-child(5):hover {
     text-decoration: underline;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main-container .content .main-text .bg-mobile-left {
+    margin-top: -341px;
   }
 }
 /*# sourceMappingURL=style.scss.map */
