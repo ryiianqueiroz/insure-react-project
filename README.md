@@ -3,6 +3,6 @@
 
 Modelo responsivo ( Desktop / Tablet / Mobile )
 
-Link do Projeto:
+Link do Projeto: https://ryiianqueiroz.github.io/insure-react-project/
 
-Link do Desafio:
+Link do Desafio: https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8
