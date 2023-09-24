@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/insure-react-project/static/css/main.8e54bdb4.css",
+    "main.js": "/insure-react-project/static/js/main.66652d5b.js",
+    "static/media/image-intro-desktop.jpg": "/insure-react-project/static/media/image-intro-desktop.2f3429f63753a67e322b.jpg",
+    "static/media/image-intro-mobile.jpg": "/insure-react-project/static/media/image-intro-mobile.8b8c3185ce1388b2bb9e.jpg",
+    "static/media/logo.svg": "/insure-react-project/static/media/logo.b84080a147fc2d2276186c0349edfeec.svg",
+    "static/media/bg-pattern-mobile-nav.svg": "/insure-react-project/static/media/bg-pattern-mobile-nav.b2fceba3d85314c104868fce09cd879c.svg",
+    "static/media/bg-pattern-how-we-work-desktop.svg": "/insure-react-project/static/media/bg-pattern-how-we-work-desktop.eb268c33d9921cd960db6b6ffa65c644.svg",
+    "static/media/bg-pattern-intro-left-desktop.svg": "/insure-react-project/static/media/bg-pattern-intro-left-desktop.3a425b38f5531b055de49ec32822cf8c.svg",
+    "static/media/bg-pattern-intro-right-desktop.svg": "/insure-react-project/static/media/bg-pattern-intro-right-desktop.0c130b3f008bf9eb1d1b204d6bdd53e0.svg",
+    "static/media/bg-pattern-footer-desktop.svg": "/insure-react-project/static/media/bg-pattern-footer-desktop.700c39ea607592bfacaf790991a07f0b.svg",
+    "static/media/bg-pattern-how-we-work-mobile.svg": "/insure-react-project/static/media/bg-pattern-how-we-work-mobile.96cd9d0635dc0b4420227ebc8668096d.svg",
+    "static/media/bg-pattern-intro-left-mobile.svg": "/insure-react-project/static/media/bg-pattern-intro-left-mobile.111709ef92e6f76465a94048f9c12fad.svg",
+    "static/media/bg-pattern-intro-right-mobile.svg": "/insure-react-project/static/media/bg-pattern-intro-right-mobile.0354e57129409ea983cd642c14acfb82.svg",
+    "static/media/icon-affordable-prices.svg": "/insure-react-project/static/media/icon-affordable-prices.a14b80772734da267900f7318cf981cc.svg",
+    "static/media/icon-instagram.svg": "/insure-react-project/static/media/icon-instagram.46cfe17c3109f3bd2460963bc5beb553.svg",
+    "static/media/icon-pinterest.svg": "/insure-react-project/static/media/icon-pinterest.5b02655f8f80d07884a7ed52397ff073.svg",
+    "static/media/icon-people-first.svg": "/insure-react-project/static/media/icon-people-first.d7caeec6d85bd1e295394236448c7dc9.svg",
+    "index.html": "/insure-react-project/index.html",
+    "static/media/icon-twitter.svg": "/insure-react-project/static/media/icon-twitter.5e850eb31e4bad3bc4bf26b14b0cdd7f.svg",
+    "static/media/icon-facebook.svg": "/insure-react-project/static/media/icon-facebook.4333c44571bee8e7f461b2fdaed6a6c0.svg",
+    "static/media/icon-snappy-process.svg": "/insure-react-project/static/media/icon-snappy-process.eea918825472aa9c0993c85ced5522e7.svg",
+    "static/media/icon-close.svg": "/insure-react-project/static/media/icon-close.f964824b48f9414b2ad2da1c4817ec5f.svg",
+    "static/media/icon-hamburger.svg": "/insure-react-project/static/media/icon-hamburger.d550a648e0286cb7dddf1b1c8fc23d17.svg",
+    "main.8e54bdb4.css.map": "/insure-react-project/static/css/main.8e54bdb4.css.map",
+    "main.66652d5b.js.map": "/insure-react-project/static/js/main.66652d5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e54bdb4.css",
+    "static/js/main.66652d5b.js"
+  ]
+}
